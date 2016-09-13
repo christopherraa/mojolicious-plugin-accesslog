@@ -1,3 +1,7 @@
+# ¡ Important !
+
+This is a fork of [augensalat/mojolicious-plugin-accesslog](https://github.com/augensalat/mojolicious-plugin-accesslog) mainly to address the lack of logging placeholder for outermost client in an `X-Forwarded-For`-chain. Will try to keep this updated with changes from its origin. Will try to figure out the most sensible way of packaging this so it becomes available as a cpan-dist, but I will not upload to cpan since I don't want to interfere with the original module.
+
 # Mojolicious::Plugin::AccessLog [![Build Status](https://api.travis-ci.org/augensalat/mojolicious-plugin-accesslog.svg?branch=master)](https://travis-ci.org/augensalat/mojolicious-plugin-accesslog)
 
 You might have wondered why
